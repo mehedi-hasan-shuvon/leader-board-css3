@@ -56,22 +56,36 @@ hr{
     margin-left: 16px;
     font-size: 18px;
 }
+
+/*-----------------------------Animation section------------------- */
+
+
+
+
 /*----------------------------- Header style--------------------- */
 header{
     background-color: #562EFF;
-    padding: 10px 10px;
+    padding: 0px 10px;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-.header-container{
+header .container{
+    background-color: #562EFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 870px;
+    margin-top: 0;
 }
 
 .logo img{
-    width: 45px;
-    padding-left: 20px;
+    width: 40.42px;
+    height: 51px;
+    /* padding-left: 20px; */
 }
 .navigation{
     display: flex;
@@ -91,6 +105,9 @@ header{
     color: white;
 }
 
+.navigation-items li a:hover{
+    color:#FF4A60;
+}
 .avatar{
     display: flex;
     align-items: center;
