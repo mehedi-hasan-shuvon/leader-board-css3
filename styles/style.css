@@ -94,7 +94,7 @@ header{
 .avatar{
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    padding: 0 10px;
 }
 
 /* -----------------top blogs styles--------------------------- */
@@ -183,8 +183,12 @@ header{
 
 /* mobile devices */
 @media only screen and (max-width:688px){
-    .header{
-        margin:0px;
+    .logo img{
+        width: 45px;
+        padding-left: 10px;
+    }
+    .navigation-items li{
+        padding:0 10px;
     }
     .container{
         width:100%;
