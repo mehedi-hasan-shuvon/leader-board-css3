@@ -250,7 +250,32 @@ header .container{
         flex-direction: column;
     }
 
+
+    .navigation-items li{
+        
+        padding:0 5px;
+    }
     
+    .navigation-items{
+        display: flex;
+        padding: 0 20px;
+        flex-direction: column;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .container{
+        background-color: #562EFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 870px;
+        padding: 20px;
+        margin-top: 0;
+        flex-direction: column;
+    }
 }
 
 /* tablet devices */
